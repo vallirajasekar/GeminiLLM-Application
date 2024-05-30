@@ -1,0 +1,11 @@
+libdir=/Users/vallirajasekar/Desktop/Gemini AI/venv/lib
+includedir=/Users/vallirajasekar/Desktop/Gemini AI/venv/include
+enginesdir=/Users/vallirajasekar/Desktop/Gemini AI/venv/lib/engines-3
+modulesdir=/Users/vallirajasekar/Desktop/Gemini AI/venv/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
